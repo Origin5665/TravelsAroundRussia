@@ -1,4 +1,4 @@
-# TravelsAroundRussia
+# TravelsAroundRussia v1.0
  -- Проект созданный в рамках обучения в Яндекс Практикум --
 
 { **Дизайн**: Яндекс Практикум,
@@ -6,3 +6,4 @@
   **Технологии**: HTML, CSS }
 
 *Страница адаптирована под десктоп и мобильные разрешения*
+[GitHub Pages](https://origin5665.github.io/TravelsAroundRussia/)
