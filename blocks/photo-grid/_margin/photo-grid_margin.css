@@ -1,0 +1,10 @@
+.photo-grid_margin {
+    margin-bottom: 92px;
+}
+
+
+@media screen and (max-width: 360px) {
+    .photo-grid {
+        padding-bottom: 102px;
+    }
+}

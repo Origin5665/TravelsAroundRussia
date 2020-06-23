@@ -1,0 +1,23 @@
+@import url('../header.css');
+
+.header__lang {
+    margin-right: 20px;
+}
+
+.header__lang:last-child {
+    margin-right: 0;
+}
+
+
+
+@media (max-width : 665px) {
+    .header__lang {
+        margin-right: 16px;
+    }
+}
+
+@media (max-width : 445px) {
+    .header__lang {
+        margin-right: 24px;
+    }
+}

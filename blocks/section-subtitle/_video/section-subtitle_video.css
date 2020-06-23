@@ -1,0 +1,22 @@
+.section-subtitle_video {
+    margin: 0 auto;
+    margin-bottom: 62px;
+}
+
+
+
+
+
+@media screen and (max-width : 995px) {
+    .section-subtitle_video {
+        margin-bottom: 52px;
+
+    }
+}
+
+@media screen and (max-width : 455px) {
+    .section-subtitle_video {
+        margin-bottom: 24px;
+
+    }
+}

@@ -1,0 +1,29 @@
+.intro__container-statistics {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 93px;
+}
+
+@media screen and (max-width: 1100px) {
+    .intro__container-statistics {
+        margin-bottom: 97px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .intro__container-statistics {
+        margin-bottom: 91px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .intro__container-statistics {
+        margin-bottom: 68px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .intro__container-statistics {
+        margin-bottom: 72px;
+    }
+}

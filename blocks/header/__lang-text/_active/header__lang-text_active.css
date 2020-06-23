@@ -1,0 +1,8 @@
+.header__lang-text_active {
+    border-bottom: 2px #ffffff solid;
+    padding-bottom: 1px;
+}
+
+.header__lang-text_active:hover {
+    border-color: #2973b8;
+}

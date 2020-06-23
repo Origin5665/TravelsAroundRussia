@@ -1,0 +1,30 @@
+.section-title_comments {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width : 1100px) {
+    .section-title_comments {
+        margin-bottom: 24px;
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width : 995px) {
+    .section-title_comments {
+        margin-bottom: 33px;
+
+    }
+}
+
+
+@media screen and (max-width : 665px) {
+    .section-title_comments {
+        width: 90%;
+        margin-bottom: 22px;
+
+    }
+}

@@ -1,0 +1,17 @@
+.comment__image {
+    border-radius: 50%;
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.39));
+    height: 98px;
+    margin-bottom: 34px;
+}
+
+
+
+@media screen and (max-width : 995px) {
+    .comment__image {
+        margin-bottom: 0;
+        order: -1;
+    }
+
+
+}

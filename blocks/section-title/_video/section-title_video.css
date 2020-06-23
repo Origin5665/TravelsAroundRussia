@@ -1,0 +1,36 @@
+.section-title_video {
+    width: 62%;
+    margin: 0 auto;
+    margin-bottom: 31px;
+}
+
+
+@media screen and (max-width : 1100px) {
+    .section-title_video {
+        margin-bottom: 31px;
+        width: 72%;
+    }
+}
+
+
+@media screen and (max-width : 995px) {
+    .section-title_video {
+        margin-bottom: 31px;
+        width: 55%;
+    }
+}
+
+
+@media screen and (max-width : 665px) {
+    .section-title_video {
+        width: 87%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width : 665px) {
+    .section-title_video {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}

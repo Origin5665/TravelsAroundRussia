@@ -1,0 +1,16 @@
+.intro__bold-statistics {
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 470px) {
+
+    .intro__bold-statistics {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

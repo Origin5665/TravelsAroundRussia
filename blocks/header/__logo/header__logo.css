@@ -1,0 +1,14 @@
+@import url('../header.css');
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
+
+@media (max-width : 665px) {
+    .header__logo {
+
+        width: 142px;
+        height: 42px;
+    }
+}

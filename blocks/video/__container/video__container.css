@@ -1,0 +1,65 @@
+@import url('../../video-item/video-item.css');
+
+.video__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 105px;
+    max-width: 92%;
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .video__container {
+
+        padding: 0 48px;
+        margin-bottom: 96px;
+    }
+
+
+}
+
+@media screen and (max-width: 995px) {
+    .video__container {
+        padding: 0 24px;
+        max-width: 720px;
+    }
+
+}
+
+
+@media screen and (max-width: 665px) {
+    .video__container {
+        flex-direction: column;
+        padding: 0 16px;
+        max-width: 400px;
+        margin-bottom: 67px;
+    }
+
+}
+
+@media screen and (max-width: 455px) {
+    .video__container {
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .video__container {
+        margin-bottom: 57px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .video__container {
+        max-width: 288px;
+    }
+
+
+}

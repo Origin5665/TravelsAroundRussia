@@ -1,0 +1,89 @@
+@import url('./__image/place__image.css');
+@import url('./__paragraph/place__paragraph.css');
+@import url('./__title/place__title.css');
+@import url('./__url-heading/place__url-heading.css');
+@import url('./__url/place__url.css');
+@import url('./__website/place__website.css');
+
+
+.place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px 17px;
+    margin-bottom: 87px;
+    max-width: 984px;
+    position: relative;
+
+}
+
+.place:last-child {
+    margin-bottom: 108px;
+}
+
+@media screen and (max-width : 1100px) {
+    .place {
+        grid-gap: 45px 50px;
+        padding: 0 48px;
+        margin-bottom: 65px;
+    }
+
+    .place:last-child {
+        margin-bottom: 166px;
+    }
+
+}
+
+@media screen and (max-width : 995px) {
+    .place {
+        grid-gap: 40px 16px;
+        padding: 0 24px;
+        margin-bottom: 90px;
+
+    }
+
+    .place:last-child {
+        margin-bottom: 148px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-bottom: 48px;
+
+    }
+
+    .place:last-child {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .place {
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-bottom: 52px;
+        grid-gap: 27px 16px;
+
+    }
+
+    .place:last-child {
+        margin-bottom: 91px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .place {
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-bottom: 68px;
+        grid-gap: 28px 16px;
+
+    }
+
+    .place:last-child {
+        margin-bottom: 73px;
+    }
+}

@@ -1,0 +1,26 @@
+.section-subtitle_comments {
+    margin: 0 auto;
+    margin-bottom: 61px;
+}
+
+
+@media screen and (max-width : 1100px) {
+    .section-subtitle_comments {
+        margin-bottom: 67px;
+
+    }
+}
+
+@media screen and (max-width : 455px) {
+    .section-subtitle_comments {
+        margin-bottom: 44px;
+
+    }
+}
+
+@media screen and (max-width : 335px) {
+    .section-subtitle_comments {
+        margin-bottom: 35px;
+
+    }
+}

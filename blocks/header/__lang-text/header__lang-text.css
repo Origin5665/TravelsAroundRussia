@@ -1,0 +1,19 @@
+@import url('../__lang-text/_active/header__lang-text_active.css');
+
+.header__lang-text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s linear;
+
+}
+
+@media (max-width : 665px) {
+    .header__lang-text {
+        font-size: 18px;
+        line-height: 96.82%;
+    }
+}

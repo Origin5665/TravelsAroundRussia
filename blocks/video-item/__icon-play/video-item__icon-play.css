@@ -1,0 +1,39 @@
+@import url('./_margin/video-item__icon-play_margin.css');
+
+.video-item__icon-play {
+    width: 41px;
+    height: 41px;
+    margin-bottom: 94px;
+    animation: pulse 0.9s ease-in-out infinite alternate;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .video-item__icon-play {
+        margin-bottom: 54px;
+    }
+
+}
+
+@media screen and (max-width: 995px) {
+
+    .video-item__icon-play {
+        margin-bottom: 36px;
+    }
+
+}
+
+@media screen and (max-width: 665px) {
+
+    .video-item__icon-play {
+        margin-bottom: 42px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+
+    .video-item__icon-play {
+        margin-bottom: 46px;
+    }
+
+}

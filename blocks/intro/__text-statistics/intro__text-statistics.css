@@ -1,0 +1,15 @@
+.intro__text-statistics {
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 470px) {
+
+    .intro__text-statistics {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
